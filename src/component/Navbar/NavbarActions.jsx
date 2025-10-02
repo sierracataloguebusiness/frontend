@@ -25,7 +25,7 @@ const NavbarActions = ({
       {isAuthenticated ? (
         <div className="relative">
           <FaUserCircle
-            className="cursor-pointer max-md:size-8"
+            className="cursor-pointer max-md:size-7"
             aria-label="User Menu"
             onClick={() => setDropdownOpen(!dropdownOpen)}
           />
@@ -72,7 +72,7 @@ const NavbarActions = ({
         </div>
       ) : (
         <FaRegUser
-          className="cursor-pointer max-md:size-8 md:size-5"
+          className="cursor-pointer max-md:size-7 size-5"
           aria-label="User Account"
           onClick={onUserClick}
         />

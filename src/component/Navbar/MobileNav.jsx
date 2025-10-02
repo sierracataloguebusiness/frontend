@@ -16,7 +16,7 @@ const MobileNav = ({ isOpen, onClose }) => {
         to="/vendor-application"
         onClick={onClose}
         children="List now"
-        className="md:hidden text-2xl px-6 py-4"
+        className="md:hidden text-xl px-6"
       />
     </div>
   );
