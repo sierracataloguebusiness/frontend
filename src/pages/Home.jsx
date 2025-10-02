@@ -116,19 +116,19 @@ const Home = () => {
           {[
             {
               step: "1",
-              icon: <MdPersonAddAlt1 className="size-8" />,
+              icon: <MdPersonAddAlt1 className="size-10" />,
               title: "Sign Up",
               desc: "Create an account in minutes and set up your profile.",
             },
             {
               step: "2",
-              icon: <FiSearch className="size-8" />,
+              icon: <FiSearch className="size-10" />,
               title: "Browse",
               desc: "Explore categories and discover verified businesses.",
             },
             {
               step: "3",
-              icon: <FaShoppingBag className="size-8" />,
+              icon: <FaShoppingBag className="size-10" />,
               title: "Order",
               desc: "Add to cart, place your order, and track it in real time.",
             },
@@ -138,7 +138,7 @@ const Home = () => {
               className="border border-white rounded-2xl p-6 flex flex-col items-center justify-center gap-1 text-center bg-white/5 backdrop-blur-sm h-[30vh]"
             >
               {item.icon}
-              <h3 className="text-xl font-bold text-primary-gold mt-2">
+              <h3 className="text-xl max-md:text-2xl font-bold text-primary-gold mt-2">
                 {item.title}
               </h3>
               <p className="text-gray-400">{item.desc}</p>
