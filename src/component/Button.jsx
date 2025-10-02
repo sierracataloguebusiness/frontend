@@ -12,7 +12,7 @@ const Button = ({
   ...props
 }) => {
   const baseStyles =
-    "flex items-center justify-center max-md:py-4 max-md:px-6 max-md:text-2xl py-2 px-4 transition duration-300 font-semibold";
+    "flex items-center justify-center max-md:py-4 max-md:px-6 max-md:text-xl max-sm:px-4 max-sm:text-base py-2 px-4 transition duration-300 font-semibold";
 
   const modStyles = {
     primary:
