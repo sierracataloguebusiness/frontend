@@ -96,10 +96,14 @@ const Home = () => {
         </div>
 
         <div className="relative flex max-sm:flex-col gap-6 md:gap-10 max-sm:text-sm">
-          <Button to="/vendor-application" className="px-6 py-4 text-lg">
+          <Button to="/vendor-application" className="px-6 py-4 max-md:text-lg">
             List your business
           </Button>
-          <Button to="/shop" style="secondary" className="px-8 py-4">
+          <Button
+            to="/shop"
+            style="secondary"
+            className="px-8 max-md:py-4 max-md:text-lg"
+          >
             Shop now
           </Button>
         </div>
