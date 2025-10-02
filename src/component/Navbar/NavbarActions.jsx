@@ -16,7 +16,7 @@ const NavbarActions = ({
   return (
     <div className="relative flex items-center gap-x-4">
       <Link to="/cart">
-        <BiShoppingBag className="cursor-pointer size-7" aria-label="Search" />
+        <BiShoppingBag className="cursor-pointer size-8" aria-label="cart" />
       </Link>
 
       {isAuthenticated ? (
@@ -69,7 +69,7 @@ const NavbarActions = ({
         </div>
       ) : (
         <FaRegUser
-          className="cursor-pointer size-5"
+          className="cursor-pointer size-6"
           aria-label="User Account"
           onClick={onUserClick}
         />
@@ -82,7 +82,7 @@ const NavbarActions = ({
       />
 
       <IoMenu
-        className={`cursor-pointer size-5 md:hidden ${mobileOpen ? "opacity-0" : ""}`}
+        className={`cursor-pointer size-10 md:hidden ${mobileOpen ? "opacity-0" : ""}`}
         aria-label="Open Menu"
         onClick={onMenuClick}
       />

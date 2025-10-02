@@ -12,7 +12,12 @@ const MobileNav = ({ isOpen, onClose }) => {
     <div className="fixed top-0 left-0 h-screen w-full backdrop-blur-sm text-white z-50 flex flex-col items-center justify-center gap-8">
       <IoClose onClick={onClose} className="absolute top-7 right-4 size-7" />
       <NavbarLinks onClick={onClose} />
-      <Button to="/contact" children="List now" className="md:hidden" />
+      <Button
+        to="/vendor-application"
+        onClick={onClose}
+        children="List now"
+        className="md:hidden"
+      />
     </div>
   );
 };
