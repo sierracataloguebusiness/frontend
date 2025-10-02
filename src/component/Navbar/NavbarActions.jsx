@@ -16,13 +16,16 @@ const NavbarActions = ({
   return (
     <div className="relative flex items-center gap-x-4">
       <Link to="/cart">
-        <BiShoppingBag className="cursor-pointer size-8" aria-label="cart" />
+        <BiShoppingBag
+          className="cursor-pointer max-md:size-8 md:size-7"
+          aria-label="cart"
+        />
       </Link>
 
       {isAuthenticated ? (
         <div className="relative">
           <FaUserCircle
-            className="cursor-pointer size-6"
+            className="cursor-pointer max-md:size-8"
             aria-label="User Menu"
             onClick={() => setDropdownOpen(!dropdownOpen)}
           />
@@ -69,7 +72,7 @@ const NavbarActions = ({
         </div>
       ) : (
         <FaRegUser
-          className="cursor-pointer size-6"
+          className="cursor-pointer max-md:size-8 md:size-5"
           aria-label="User Account"
           onClick={onUserClick}
         />
@@ -82,7 +85,7 @@ const NavbarActions = ({
       />
 
       <IoMenu
-        className={`cursor-pointer size-10 md:hidden ${mobileOpen ? "opacity-0" : ""}`}
+        className={`cursor-pointer size-8 md:hidden ${mobileOpen ? "opacity-0" : ""}`}
         aria-label="Open Menu"
         onClick={onMenuClick}
       />
