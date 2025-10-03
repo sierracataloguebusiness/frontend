@@ -202,17 +202,19 @@ const Home = () => {
             <div className="flex flex-col gap-4">
               <ContactStripElement
                 icon={<FaWhatsapp />}
-                to={"#"}
+                to={"https://wa.me/23276325542"}
                 content={"Start a voice call"}
               />
               <ContactStripElement
                 icon={<FaInstagram />}
-                to={"#"}
+                to={
+                  "https://www.instagram.com/sierracatalogue?igsh=NTZ0eWdlc2luOHJ4"
+                }
                 content={"Message on instagram"}
               />
               <ContactStripElement
                 icon={<FaTiktok />}
-                to={"#"}
+                to={"https://tiktok.com/@sierracatalogue"}
                 content={"View our tiktok page"}
               />
             </div>
