@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="text-center text-sm py-2 border-t border-gray-700">
-        &copy; Sierra Catalogue. All rights reserved.
+        &copy; {new Date().getFullYear()} Sierra Catalogue. All rights reserved.
       </p>
     </div>
   );
