@@ -77,11 +77,22 @@ const VendorGuidelinesMVP = () => {
           </h2>
           <p>For any questions during the MVP phase, reach out to:</p>
           <p className="mt-2">
-            <span className="font-semibold">Email:</span>{" "}
-            sierracatalogue.business@gmail.com
+            Email:{" "}
+            <a
+              href="mailto:sierracatalogue.business@gmail.com"
+              className="text-primary-gold hover:underline"
+            >
+              sierracatalogue.business@gmail.com
+            </a>{" "}
           </p>
           <p>
-            <span className="font-semibold">Phone:</span> +232 (76) 325 542
+            Email:{" "}
+            <a
+              href="tel:+23276325542"
+              className="text-primary-gold hover:underline"
+            >
+              +232 (76) 325 542
+            </a>{" "}
           </p>
         </section>
         <div className="text-center mt-8">

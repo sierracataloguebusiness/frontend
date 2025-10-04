@@ -19,6 +19,7 @@ import NotFound from "./pages/NotFound.jsx";
 import ScrollToTop from "./component/ScrollToTop.jsx";
 import FAQ from "./pages/FAQ.jsx";
 import ComingSoon from "./pages/ComingSoon.jsx";
+import TermsOfService from "./pages/TermsOfService.jsx";
 
 const App = () => {
   function Layout() {
@@ -60,6 +61,7 @@ const App = () => {
         <Route path="/faq" element={<FAQ />} />
         <Route path="/vendor-guidelines" element={<VendorGuideline />} />
         <Route path="/vendor-application" element={<VendorApplicationForm />} />
+        <Route path="/terms-of-service" element={<TermsOfService />} />
         <Route
           path="/dashboard"
           element={<PrivateRoute children={<Dashboard />} />}
